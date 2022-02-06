@@ -16,7 +16,7 @@ The first analysis was done to determine how project outcomes were related to th
 
 >(((K2/60)/60)/24)+DATE(1970,1,1)
 
-Next, the YEAR() function was used to extract the just the year from the date created. All of the data was then selected to create a pivot table. 
+Next, the YEAR() function was used to extract just the year from the date created. All of the data was then selected to create a pivot table. 
 
 ![Pivot Table](images/pivottable1.png) ![Pivot Table Fields](images/fields1.png)
 
@@ -38,7 +38,7 @@ Outcome percentages and goal ranges were then used to create a visualization.
 ![line graph](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
-In this challenge most of the difficulties I encountered were due to typos. For example, on in the Outcomes Bases on Goals spreadsheet I has mistyped 'successful' in the equations in column B. However, I quickly noticed that the numbers I was getting did not make sense, so I knew to go back and review my equations and was able to eliminate the typo. I also ran into a challenge when the graph made for Outcomes based on Goal did not match the example. I was able to determine I was missing a data point. To solve this, I inserted a row into my table for the 30000 to 34999 range, which I accidentally missed the first time.  
+In this challenge most of the difficulties I encountered were due to typos. For example, in the Outcomes Bases on Goals spreadsheet I has mistyped 'successful' in the equations in column B. However, I quickly noticed that the numbers I was getting did not make sense, so I knew to go back and review my equations and was able to eliminate the typo. I also ran into a challenge when the graph made for Outcomes based on Goal did not match the example. I was able to determine I was missing a data point. To solve this, I inserted a row into my table for the 30000 to 34999 range, which I accidentally missed when I was first creating to table.  
 
 ## Results
 
@@ -49,9 +49,9 @@ In this challenge most of the difficulties I encountered were due to typos. For 
 1. Overall there is greatest chance of a successful campaign at lowest goal amounts. Campaign success and goal amount seem to have an inverse relationship. However, there is a spike in campaign success to about 66% at the goal ranges of 35000 to 45000. 
    
 ### Dataset limitations
-One potential limitation of this data set is that the most recent data points are from 2017. Since this time there has been a global pandemic which may have effected fundraising. It could also heavily effect fundraising for events such as plays that may have to be canceled due to CDC guidelines about covid. 
+One potential limitation of this data set is that the most recent data points are from 2017. Since this time, there has been a global pandemic that may have effected fundraising. It could also heavily effect fundraising for events such as plays that may have to be canceled due to CDC guidelines about covid. 
 
 ### Recommendations for further analysis
 A box and whisker plot could be created for the subcategory 'plays' data to determine if the spike in campaign success by goal is due to any outliers. An analysis could also be done to look for trends between length of campaign and campaign outcome. This could be useful information for Louise, as an ideal campaign length could be recommended. 
-Louise also had an interest in putting on a musical in Great Britain. However, since she does not have experience with musicals in there it could also be beneficial for her to do an analysis comparing results of campaigns for musicals in Great Britain compared to musical Kickstarter campaigns in the United States.
+Louise also had an interest in putting on a musical in Great Britain. However, since she does not have experience with musicals there, it could also be beneficial to do an analysis comparing results of campaigns for musicals in Great Britain to musical Kickstarter campaigns in the United States.
 
