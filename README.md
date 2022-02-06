@@ -35,7 +35,7 @@ These counts were then used to determine percentages of successful, failed, and 
 
 Outcome percentages and goal ranges were then used to create a visualization. 
 
-![line graph](resources/Outcomes_vs_goals.png)
+![line graph](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 In this challenge most of the difficulties I encountered were due to typos. For example, on in the Outcomes Bases on Goals spreadsheet I has mistyped 'successful' in the equations in column B. However, I quickly noticed that the numbers I was getting did not make sense, so I knew to go back and review my equations and was able to eliminate the typo. I also ran into a challenge when the graph made for Outcomes based on Goal did not match the example. I was able to determine I was missing a data point. To solve this, I inserted a row into my table for the 30000 to 34999 range, which I accidentally missed the first time.  
