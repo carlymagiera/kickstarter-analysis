@@ -13,19 +13,29 @@ Louise is using Kickstarter to fundraise for her play, *Fever*.  She wants to kn
 
 ### Analysis of Outcomes Based on Launch Date
 The first analysis was done to determine how project outcomes were related to their launch date. In order to perform this analysis, the launch dates in the raw data needed to be converted to a readable format from their Unix timestamps. This was done by creating a new column, column S, in the spreadsheet and applying the following formula.
-===(((K2/60)/60)/24)+DATE(1970,1,1)==
+
+==(((K2/60)/60)/24)+DATE(1970,1,1)==
+
 Next, the YEAR() function was used to extract the just the year from the date created. All of the data was then selected to create a pivot table. 
-![Pivot Table](pivottable1.png) ![Pivot Table Fields](pivottable1.png)
+
+![Pivot Table](pivottable1.png) ![Pivot Table Fields](fields1.png)
+
 The pivot table could then be used to create a pivot chart. A line chart was made to easily visualize trends in successful, failed, and canceled campaigns relative to time of the year. 
-![Theater Outcomes Based on Launch Date](Theater_Outcomes_vs_Launch.png)
+
+![Theater Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 The next analysis was executed to look for trends in outcomes based on the project's fundraising goal. First a table was created with rows as goal ranges. Columns showed the number of successful, failed, canceled and total projects. the COUNTIFS= function was used to only count projects that met criteria. For example, there were 93 successful campaigns for plays that had a fundraising goal between $5000 and $9999. This number was found using the following equation:
+
 ![COUNTIFS example](b4equation.png) 
+
 These counts were then used to determine percentages of successful, failed, and canceled projects, as seen in the below table. 
+
 ![Goals and Outcomes Table](goals_outcomes_table.png)
+
 Outcome percentages and goal ranges were then used to create a visualization. 
-![line graph](Outcomes_vs_goals.png)
+
+![line graph](resources/Outcomes_vs_goals.png)
 
 ### Challenges and Difficulties Encountered
 In this challenge most of the difficulties I encountered were due to typos. For example, on in the Outcomes Bases on Goals spreadsheet I has mistyped 'successful' in the equations in column B. However, I quickly noticed that the numbers I was getting did not make sense, so I knew to go back and review my equations and was able to eliminate the typo. I also ran into a challenge when the graph made for Outcomes based on Goal did not match the example. I was able to determine I was missing a data point. To solve this, I inserted a row into my table for the 30000 to 34999 range, which I accidentally missed the first time.  
